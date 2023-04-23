@@ -7,7 +7,7 @@
 	],
 	"routes":[
 		{
-			"src":"/data",
+			"src":"/(.*)",
 			"dest":"main.py"
 		}
 

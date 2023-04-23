@@ -1,1 +1,6 @@
-Flask==2.2.2
+flask
+random
+flask_cors
+dotenv
+os
+json

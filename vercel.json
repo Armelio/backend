@@ -1,14 +1,14 @@
 {
 	"builds":[
 		{
-			"src":"/main.py",
-			"use":"@vercel/python"
+			"src":"main.py",
+			"use":"@liudonghua123/now-flask"
 		}
 	],
 	"routes":[
 		{
-			"src":"/(.*)",
-			"dest":"/main.py"
+			"src":"(.*)",
+			"dest":"main.py"
 		}
 
 	]
